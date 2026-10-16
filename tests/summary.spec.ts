@@ -139,7 +139,7 @@ describe('renderers', () => {
       unresolved: ['ghost'],
       ambiguous: [{ ref: 'beta', candidates: ['beta node (u-2)'] }],
       pending: ['u-1'],
-      results: [{ uuid: 'u-2', name: 'beta node', exit_code: 0, output: 'up 3 days', finished_at: null }],
+      results: [{ uuid: 'u-2', name: 'beta node', exit_code: 0, output: 'up 3 days', finished_at: '' }],
     })
     expect(text).toContain('command: uptime')
     expect(text).toContain('unresolved node reference(s): ghost')

@@ -1,0 +1,14 @@
+# dsh-komari bundle layer: inserts the dsh-komari plugin row.
+# Loaded by `dsh plugin --profile <name> add @huanlin/dsh-plugin-komari`.
+# `name` is the package entry; the Loader resolves it from profile node_modules.
+# endpoint/username/password are edited at runtime on the plugin's configure page
+# (Settings -> Plugins -> dsh-komari); the values below are the first-boot seed only.
+- insert:
+    - id: dsh-komari
+      name: '@huanlin/dsh-plugin-komari'
+      config:
+        endpoint: ''
+        username: ''
+        password: ''
+        requestTimeoutMs: 15000
+        transferTimeoutMs: 600000

@@ -1,0 +1,12 @@
+packages:
+  - .
+
+autoInstallPeers: false
+
+# pnpm >= 10 blocks build scripts until allowed. tsdown pulls esbuild.
+allowBuilds:
+  esbuild: true
+
+minimumReleaseAgeExclude:
+  - '@deepseek-ai/cosmokit@1.8.5'
+  - '@deepseek-ai/schemastery@3.18.4'

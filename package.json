@@ -49,20 +49,20 @@
     "build": "tsdown --config tsdown.config.ts"
   },
   "dependencies": {
-    "@deepseek-ai/schemastery": "^3.18.4"
+    "@deepseek-ai/schemastery": "^3.19.0"
   },
   "peerDependencies": {
-    "@deepseek-ai/cordis": "~4.0.5-alpha.2",
-    "@deepseek-ai/dsh-client-connection": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-client-locale": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-client-store": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-client-ui-plugin-manager": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-client-ui-renderer": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-client-ui-settings": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-client-ui-slots": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-llm": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-settings": "^0.2.1-alpha.5",
-    "@deepseek-ai/dsh-tools": "^0.2.1-alpha.5",
+    "@deepseek-ai/cordis": "~4.1.0",
+    "@deepseek-ai/dsh-client-connection": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-locale": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-store": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-plugin-manager": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-renderer": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-settings": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-slots": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-llm": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-settings": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-tools": "^0.2.2-rc.1",
     "@huanlin/dsh-plugin-toolsets": "^0.1.0",
     "react": "^18.2.0"
   },
@@ -108,8 +108,8 @@
     }
   },
   "devDependencies": {
-    "@deepseek-ai/dsh-client-connection": "link:D:/Projects/deepseek-harness/dsh/packages/client/connection",
-    "@deepseek-ai/dsh-tools": "link:D:/Projects/deepseek-harness/dsh/packages/core/tools",
+    "@deepseek-ai/dsh-client-connection": "^0.2.2-rc.1",
+    "@deepseek-ai/dsh-tools": "^0.2.2-rc.1",
     "@types/node": "^22.0.0",
     "@types/react": "~18.3.1",
     "tsdown": "^0.22.2",
@@ -117,6 +117,6 @@
     "vitest": "^3.2.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=24.9.0"
   }
 }
